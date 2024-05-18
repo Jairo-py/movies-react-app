@@ -1,0 +1,17 @@
+.spinner {
+    display: flex;
+    margin: 30px;
+    justify-content: center
+    
+}
+
+.spinning {                             /*  este estilo es ara que el loader q¿tenga una animacion lineal  */
+    animation: spinner 1s linear infinite;
+    
+}
+
+@keyframes spinner {                   /*  este estilo es para que el loader tenga un giro de 360 grados y de el efecto que esta cargando */
+    to {
+        transform: rotate(360deg);
+    }
+}

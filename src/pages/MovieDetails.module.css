@@ -1,0 +1,24 @@
+.detailsContainer {
+    display: flex;
+    justify-content: center;
+    /* este flex:wrap es para que el texto de la descripcion de una pelicula se ubique debajo de la foto */
+    flex-wrap: wrap;
+}
+
+.col {
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 75%;
+}
+
+.movieImage {
+    border-radius: 15px;
+}
+
+.movieDetails {
+    font-size: 1.5rem;
+}
+.firstItem {
+    margin-top: 0;
+}

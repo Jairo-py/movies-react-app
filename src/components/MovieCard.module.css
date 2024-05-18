@@ -1,0 +1,22 @@
+.movieCard {
+    list-style: none; /* esta etiqueta es para quitarle los puntos a las etiquetas li */
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* este hover es para darle un poco de opacidad cuando pasamos por encima de una tarjeta */
+.movieCard:hover {
+    opacity: 0.8;
+}
+
+.movieImage {
+    border-radius: 10px;
+    background-color: azure;
+}
+
+@media (max-width: 560px) {
+    .movieImage {
+        width: 100%;
+        width: auto;
+    }
+}
